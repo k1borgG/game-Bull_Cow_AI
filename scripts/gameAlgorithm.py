@@ -1,4 +1,4 @@
-from scripts.validNumber import isValidNumber
+from .validNumber import isValidNumber
 import random
 
 def gameAI(numberForGuess, i_cow, i_bull):
