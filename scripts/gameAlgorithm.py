@@ -8,7 +8,7 @@ def gameAI(numberForGuess, i_cow, i_bull):
             indexRandom = i_cow[random.randint(0, len(i_cow) - 1)]
             number_guest_list[index], number_guest_list[indexRandom] = number_guest_list[indexRandom], number_guest_list[index]
         if index not in i_bull and index not in i_cow:
-            number_guest_list[index] = str(random.randint(1, 9))
+            number_guest_list[index] = str(random.randint(0, 9))
             while not isValidNumber(int(''.join(number_guest_list))):
-                number_guest_list[index] = str(random.randint(1, 9))
+                number_guest_list[index] = str(random.randint(0, 9))
     return int(''.join(number_guest_list))
