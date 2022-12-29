@@ -1,1 +1,1 @@
-# game_Bull_Cow_AI
+# game Bull_Cow_AI
