@@ -1,6 +1,6 @@
-from game_Bull_Cow.scripts.validNumber import isValidNumber
-from game_Bull_Cow.scripts.checkForCowBull import checkCowBull
-from game_Bull_Cow.scripts.gameAlgorithm import gameAI
+from scripts.validNumber import isValidNumber
+from scripts.checkForCowBull import checkCowBull
+from scripts.gameAlgorithm import gameAI
 import random
 
 numberForGuess = 0
